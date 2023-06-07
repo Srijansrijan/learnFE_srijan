@@ -1,0 +1,123 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding:0;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.fcont{
+    display: flex;
+    background-color: rgb(245, 106, 106);
+    flex-direction: row;
+    padding: 40px;
+    margin: 0px;
+    padding-right: 250px;
+}  
+.fitema{
+    flex-grow: 16;
+    color: white;
+    font-weight: bolder;
+    padding-left: 15%;
+    font-size: 25px;
+} 
+.fitem{
+    color: white;
+    flex-grow: 1;
+    font-size: 17px;
+    padding-top: 8px;
+}
+.fitemb{
+    color: white;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 8px;
+}
+.bb{
+    padding: 2px;
+}
+.b{
+    margin-left: 8px;
+}
+
+.img{
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(245, 106, 106);
+
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+p{
+    text-align: center;
+}
+/*.boxed{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    color: white;
+}*/
+.boxed{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    padding: 5px;
+}
+.third{
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #afb2e8;;
+    padding: 20px;
+    place-items: center;
+}
+.plan{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px
+}
+.fcon{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}    
+.fite{
+    color: black;
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 200;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 40px;
+}
+.head{
+    padding: 15px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.para{
+    padding: 5px;
+    font-size: 15px;
+    margin: 15px;
+    text-align: justify;
+}
